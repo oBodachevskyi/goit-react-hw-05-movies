@@ -1,0 +1,14 @@
+.moviesList_items {
+    margin-top: 5px;
+    color: black;
+    
+}
+
+
+.moviesList_link{
+    color: rgb(2, 96, 184);
+}
+
+.moviesList_link:visited {
+    color: rgb(2, 96, 184);
+}

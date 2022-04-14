@@ -1,0 +1,12 @@
+.moviesPage__input {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    outline-color: rgb(17, 150, 228);
+}
+
+.moviesPage__button {
+    height: 36px;
+    
+}

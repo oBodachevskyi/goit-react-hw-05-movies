@@ -1,0 +1,19 @@
+.backButton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.movieDetails__box {
+    display:flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.movieDetails__info {
+    padding-left: 10px;
+}
+
+.addInform_box{
+    border-bottom: 2px solid gray;
+}
