@@ -27,7 +27,9 @@ export default function MovieDetailsPage (){
         wayBack = `/movies?query=${location.state}`
  
     return (<div>
-        <div>
+        
+         {movie && (<>
+            <div>
         <Link to={wayBack} 
         state={location.state}>
         <button 
@@ -37,7 +39,7 @@ export default function MovieDetailsPage (){
             </button>
         </Link>
         </div>
-         {movie && (<><div className={css.movieDetails__box}>
+         <div className={css.movieDetails__box}>
              
         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt='' height='320px'/> 
         <div className={css.movieDetails__info}>
